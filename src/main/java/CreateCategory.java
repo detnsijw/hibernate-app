@@ -30,7 +30,7 @@ public class CreateCategory {
         Category category = new Category();
         category.setName(categoryName);
 
-        System.out.println("Введите характеристики через запятуюя");
+        System.out.println("Введите характеристики через запятую");
         String text = scanner.nextLine();
         String[] optionNames = text.split(", ");
 
